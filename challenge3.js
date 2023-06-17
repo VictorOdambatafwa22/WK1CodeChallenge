@@ -1,6 +1,6 @@
 //Challenge 3: Net Salary Calculator (Toy Problem)
 
-let basic_pay;
+//let basic_pay;
 let benefits;
 let gross_pay;
 let total_deductions;
