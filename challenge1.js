@@ -21,12 +21,16 @@ else if(marks >= 40 && marks <= 50 ){
     console.log("D");
 }
 
-else {
+else if(marks < 40){
     console.log("E");
 }
 
+else {
+    console.log("Invalid entry");
 }
 
-Student_Grade(90);
+}
+
+Student_Grade(200);
 
 

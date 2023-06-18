@@ -19,5 +19,5 @@ else {
 
 }
 
-Car_speed(130);
+Car_speed(80);
 
