@@ -14,7 +14,7 @@ let bp;
 function payeeCalculator(basic_pay){
 
     bp=basic_pay;
-    if(basic_pay <= 24000 ){
+    if(basic_pay <= 24000 ){// Conditional statements
         payee=basic_pay*0.1;
          return payee;
          

@@ -1,10 +1,10 @@
 //Challenge 1: Student Grade Generator (Toy Problem)
 //A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
-let marks;
-function Student_Grade(marks){
+let marks;// Declaring variable globally so as to be accessible through out the program
+function Student_Grade(marks){// Function declaration having a single parameter
 
-
+//Conditional statements
 if(marks > 79 && marks <= 100 ){
     console.log("A");
 }
@@ -31,6 +31,6 @@ else {
 
 }
 
-Student_Grade(200);
+Student_Grade(200); // calling function and passing value as an argument to the function to be received by the parameter
 
 
