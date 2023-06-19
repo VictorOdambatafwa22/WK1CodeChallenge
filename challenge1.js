@@ -21,9 +21,10 @@ else if(marks >= 40 && marks <= 50 ){
     console.log("D");
 }
 
-else if(marks < 40){
+else if(marks >= 0 && marks <= 40 ){
     console.log("E");
 }
+
 
 else {
     console.log("Invalid entry");
@@ -31,6 +32,6 @@ else {
 
 }
 
-Student_Grade(200); // calling function and passing value as an argument to the function to be received by the parameter
+Student_Grade(-1); // calling function and passing value as an argument to the function to be received by the parameter
 
 
